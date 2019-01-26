@@ -46,7 +46,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 108
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -108,10 +108,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 267
-      width: 88
-      height: 217
-    spriteID: 4c12b95cf18494e4b89785a7d76045b6
+      y: 140
+      width: 44
+      height: 109
+    spriteID: 88a1644cebca44c0fbb087781a4c393e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -120,7 +120,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -112, y: -60}
+    uvTransform: {x: -54, y: -23}
   - name: leg2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -130,9 +130,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 160
-      height: 255
-    spriteID: 10ed17d1c4c154186a6a95636350fade
+      width: 81
+      height: 128
+    spriteID: f6ad371cff1a647cd8565bad42262a30
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -35, y: -51}
+    uvTransform: {x: -15, y: -23}
   - name: leg1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -149,11 +149,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 172
+      x: 93
       y: 4
-      width: 198
-      height: 181
-    spriteID: 138d19ecf527b466a983dbba11d1902e
+      width: 100
+      height: 91
+    spriteID: a160261aedf884b9da0007e3b1672bce
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -162,17 +162,17 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 9, y: -80}
+    uvTransform: {x: 12, y: -38}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 512
-  importedTextureHeight: 512
-  documentSize: {x: 400, y: 600}
-  textureActualWidth: 512
-  textureActualHeight: 512
+  importedTextureWidth: 256
+  importedTextureHeight: 256
+  documentSize: {x: 200, y: 300}
+  textureActualWidth: 256
+  textureActualHeight: 256
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
@@ -182,23 +182,23 @@ ScriptedImporter:
     spriteName: head
     isGroup: 0
     parentIndex: -1
-    spriteID: 4c12b95cf18494e4b89785a7d76045b6
+    spriteID: 88a1644cebca44c0fbb087781a4c393e
     layerID: 5
-    mosaicPosition: {x: 4, y: 267}
+    mosaicPosition: {x: 4, y: 140}
   - name: leg2
     spriteName: leg2
     isGroup: 0
     parentIndex: -1
-    spriteID: 10ed17d1c4c154186a6a95636350fade
+    spriteID: f6ad371cff1a647cd8565bad42262a30
     layerID: 7
     mosaicPosition: {x: 4, y: 4}
   - name: leg1
     spriteName: leg1
     isGroup: 0
     parentIndex: -1
-    spriteID: 138d19ecf527b466a983dbba11d1902e
+    spriteID: a160261aedf884b9da0007e3b1672bce
     layerID: 9
-    mosaicPosition: {x: 172, y: 4}
+    mosaicPosition: {x: 93, y: 4}
   characterData:
     bones: []
     parts: []
