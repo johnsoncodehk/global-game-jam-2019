@@ -885,6 +885,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!210 &1259761911
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066902201450011416}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!114 &1240658433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -919,17 +930,10 @@ MonoBehaviour:
   flyAddSpeed: 60
   maximumAeriallyMovementSpeed: 2
   aeriallyMovementAcceleration: 20
---- !u!210 &1259761911
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1066902201450011416}
-  m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  size: 1
+  mainBone: {fileID: 1066902201450170160}
+  foot: {fileID: 1148734744}
+  triggerCheckTran: {fileID: 738429147}
 --- !u!1 &7076736419267668935
 GameObject:
   m_ObjectHideFlags: 0

@@ -23,12 +23,18 @@ public class Character : MonoBehaviour
     public float flyAddSpeed = 1;
     public float maximumAeriallyMovementSpeed = 2; // 空中水平移動最大速度
     public float aeriallyMovementAcceleration = 1; // 空中水平移動加速度
+    [Range(0, 1)] public float size = 1;
+    public Transform mainBone, foot, triggerCheckTran;
+    public bool isPlayer;
 
     List<LevelTrigger> m_TouchTrigger = new List<LevelTrigger>();
+    float startPosX;
 
     void Awake()
     {
-        instance = this;
+        if (isPlayer)
+            instance = this;
+        startPosX = transform.position.x;
     }
     void Update()
     {
@@ -104,6 +110,12 @@ public class Character : MonoBehaviour
         JointMotor2D motor_bow = bowHingeJoint.motor;
         motor_bow.motorSpeed = bowMoveSpeed * bowSpeed;
         bowHingeJoint.motor = motor_bow;
+
+        size = Mathf.Clamp((transform.position.x - startPosX) / 120, 0.7f, 1);
+        mainBone.localScale = new Vector3(size, size, 1);
+        foot.localPosition = new Vector3(0, 0.5f + (1 - size), 0);
+        groundCheck.transform.localPosition = new Vector3(0, 0.372f + (1 - size), 0);
+        triggerCheckTran.transform.localPosition = new Vector3(0, 0.372f + (1 - size), 0);
     }
     void OnTriggerEnter2D(Collider2D other)
     {
