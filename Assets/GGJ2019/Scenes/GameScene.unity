@@ -11003,6 +11003,10 @@ PrefabInstance:
       propertyPath: fly2
       value: 
       objectReference: {fileID: 1772378171}
+    - target: {fileID: 1240658433, guid: 562beab1ca0484f7fadc2c76890cfb65, type: 3}
+      propertyPath: walkSpeed
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 1066902201450170170, guid: 562beab1ca0484f7fadc2c76890cfb65,
         type: 3}
       propertyPath: m_LocalPosition.x
