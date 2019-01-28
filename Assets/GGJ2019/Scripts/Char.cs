@@ -78,10 +78,22 @@ public class Char : MonoBehaviour
             }
         }
     }
+    bool updateDrag = false;
     void OnMouseDrag()
     {
         if (!child.gameObject.activeSelf)
             return;
+
+        updateDrag = true;
+    }
+    void FixedUpdate()
+    {
+        if (!child.gameObject.activeSelf)
+            return;
+
+        if (!updateDrag)
+            return;
+        updateDrag = false;
 
         var pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         pos.z = 0;

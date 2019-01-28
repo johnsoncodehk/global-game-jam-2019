@@ -85,15 +85,13 @@ TextureImporter:
     sprites: []
     outline: []
     physicsShape:
-    - - {x: 54, y: -69}
-      - {x: -46, y: -73}
-      - {x: -89, y: -58}
-      - {x: -22, y: -92}
+    - - {x: 50, y: -71}
+      - {x: -38, y: -70}
+      - {x: -47, y: -80}
       - {x: 3, y: -118}
       - {x: 26, y: -118}
       - {x: 43, y: -101}
-      - {x: 61, y: -79}
-      - {x: 67, y: 31}
+      - {x: 59, y: -80}
     bones: []
     spriteID: 55c237224f16a4ed8b8df4fb53f81658
     vertices: []
