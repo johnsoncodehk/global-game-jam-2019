@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "GGJ2019",
+"dataUrl": "ab3ccaf5c80f24170f98a4d2b73ebac7.unityweb",
+"wasmCodeUrl": "91c0723f83c04ca17e67052ebbd6700f.unityweb",
+"wasmFrameworkUrl": "62cacaeddffbc8a505661faa57fe7342.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
